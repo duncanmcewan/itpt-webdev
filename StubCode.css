@@ -1,0 +1,148 @@
+/*  TOP LEVEL CSS  */
+body {
+  margin: 0;
+}
+
+h2 {
+  color: #0d3f3f;
+  font-weight: bold;
+}
+
+h3 {
+  color: #24a8a8;
+  font-style: italic;
+}
+
+p {
+  padding: 10px;
+}
+
+
+/*  STANDARD BORDER SETTINGS CSS  */
+.border-std {
+  border-style: solid;
+  border-color: #1B7E7E;
+  border-width: 2px;
+}
+
+
+/*  GENERAL CSS  */
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+/*  MIDDLE CONTAINER CSS  */
+.middle-container {
+  background-color: #AFEEEE;  /*  PaleTurquoise  */
+  padding: 10px;
+}
+
+
+/*  PROFILE CONTAINER CSS  */
+.profile {
+  background-color: #5F9EA0;  /* CadetBlue  */
+  color: #d5f6f6;
+  border-radius: 15%;
+  border-width: thick;
+  width: 300px;
+  margin-left : 35%;
+}
+
+.profile h2 {
+//  color: #FFFFFF;  /*  white  */
+  text-align: center;
+}
+
+.profile p {
+  padding: 2px;
+  //color: #FFFFFF;  /*  white  */
+  text-align: center;
+}
+
+
+.profile img {
+  width: 40%;
+  height: 40%;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+
+/*  SKILLS CONTAINER CSS  */
+.skills {
+  vertical-align: middle;
+}
+
+.skill-row {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.skill-row-head > * {
+  vertical-align: middle;
+}
+
+.skills p {
+  margin-left: 20px;
+}
+
+
+.skill-row h3 {
+  margin-left: 10px;
+  display: inline;
+}
+
+
+.skill-row img {
+  width: 70px;
+  height: 50px;
+}
+
+
+/*  BOTTOM CONTAINER CSS  */
+.bottom-container {
+  background-color: #5F9EA0;  /*  CadetBlue  */
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-container img {
+  height: 5%;
+  width: 5%;
+  border-radius: 20%;
+}
+
+img.itpt {
+  border-radius: 100%;
+  background-color: #FFFFFF;  /*  white  */
+}
+
+.bottom-container p {
+  font-weight: bold;
+  color: #092a2a;
+}
+
+.footer-link {
+  margin-right: 20px;
+}
+
+/*  CONTACT-ME CSS  */
+
+.btn {
+
+}
+
+.btn img {
+  height: 6%;
+  width: 6%;
+  border-radius: 100%;
+  background-color: #AFEEEE;  /*  PaleTurquoise  */
+}
+.contact-me {
+  padding: 5px;
+}
