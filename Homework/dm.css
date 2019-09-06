@@ -1,0 +1,139 @@
+body {
+  background-color: #228B22;  /*  ForrestGreen  */
+  margin: 0;
+  font-size: 16px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  color: #E6E6E6;
+}
+
+
+/*  TOP SECTION CSS  */
+
+#top img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#top h1 {
+  margin-left: 10px;
+  display: inline;
+  color: #E6E6E6;  /*  SILVER  */
+}
+
+/*  NAVIGATION (HEADER) CSS  */
+#navbar {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navbar-item {
+  background-color: #E5CCFF;
+  display: inline-block;
+  width: 20%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-style: solid;
+}
+
+
+/*  GENERAL MAIN CSS  */
+
+.main-item {
+  margin: 20px;
+  padding: 10px;
+}
+
+
+/*  HOME PAGE - MAIN CSS  */
+
+#archery1 {
+  margin-top: 40px;
+  margin-left: 10px;
+  height: 170px;
+  width: 170px;
+  float: left;
+}
+
+#archery2 {
+  margin-top: 40px;
+  margin-right: 10px;
+  height: 170px;
+  width: 170px;
+  float: right;
+}
+
+#target1 p {
+  margin-left: 200px;
+}
+
+#target2 p {
+  margin-right: 200px;
+}
+
+
+/*  CONTACT PAGE MAIN CSS  */
+.btn img {
+  height: 20%;
+  width: 15%;
+  border-radius: 100%;
+}
+
+/*  BOTTOM (FOOTER) CSS  */
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#bottom-content img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+/*  BORDER CSS  */
+
+.dashed-2px-silver {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color: #CCFFCC;
+}
+
+/*  STANDARD BORDER SETTINGS CSS  */
+.solid-2px-silver {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color: #CCFFCC;
+}
+
+/*  LINK CSS  */
+.navbar-item a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-item a:hover {
+  background-color: #CCFFDD;
+  display: block;
+}
+
+a.current {
+  background-color: #E6E6E6;
+  display: block;
+}
