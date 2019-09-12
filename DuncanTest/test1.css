@@ -1,0 +1,86 @@
+body {
+  background-color: silver;
+  margin: 0;
+  font-size: 12px;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/*  TOP STUFF  */
+.top_img {
+  width: 180px;
+  height: 131px;
+}
+
+
+/*  DIV 1  */
+.div1 {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: PaleTurquoise;
+}
+
+.div1_img {
+  width: 258px;
+  height: 181px;
+}
+
+.div1_img_block {
+  width: 23%;
+  height: 361px;
+  background-color: red;
+  float: left;
+}
+
+.div1_txt_block {
+  background-color: yellow;
+  height: 361px;
+  width: 76%;
+  float: right;
+  margin-left: 1%;
+}
+
+.div1 h2 {
+  background-color: green;
+  height: 24px;
+  margin-bottom: 0;
+  margin-top: 1px;
+  padding: 5px 0 10px 10px;
+}
+
+
+/*  DIV2  */
+
+.div2 {
+  width: 80%;
+  margin: auto;
+  background-color: Teal;
+}
+
+.div2_img {
+  width: 254px;
+  height: 181px;
+  float: left;
+}
+
+
+/*  DIV3  */
+
+.div3 {
+  width: 80%;
+  margin: auto;
+  background-color: Orange;
+}
+
+.div3_img {
+  width: 254px;
+  height: 181px;
+}
